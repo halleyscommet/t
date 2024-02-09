@@ -19,7 +19,7 @@ window.onload = function () {
     copyBtn.textContent = 'Copy URL'
     copyBtn.addEventListener('click', function () {
       var url =
-        'http://localhost:8000/?img=' +
+        'https://noahlikesvr.github.io/t/?img=' +
         encodeURIComponent(urlInput.value) +
         '&times=' +
         encodeURIComponent(timesInput.value)
